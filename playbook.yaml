@@ -1,0 +1,6 @@
+---
+- name: Provisioning Jenkins
+  hosts:
+    - jenkins
+  roles:
+    - { role: jenkins, become: true }
